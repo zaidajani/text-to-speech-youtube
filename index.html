@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text-to-speech</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <center><h1>Text-to-speech</h1></center>
+  </header>
+  <div class="container">
+    <div class="mb-3">
+      <label for="text-input" class="form-label">Text</label>
+      <input type="email" class="form-control" id="text-input" aria-describedby="emailHelp">
+    </div>
+    <select id="voiceList" class="form-select" aria-label="Default select example">
+      <option selected>Open this select menu</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+    <center><button id="btn-speak" class="btn btn-success mt-4">Speak</button></center>
+    <script src="./app.js"></script>
+  </div>
+</body>
+</html>
