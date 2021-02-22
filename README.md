@@ -6,4 +6,4 @@ A web application that converts text into a speech made using plain HTML, CSS, J
 
 https://zaidajani.github.io/text-to-speech-youtube/
 
-![demo](./demo.png)
+![demo](./demo.PNG)
